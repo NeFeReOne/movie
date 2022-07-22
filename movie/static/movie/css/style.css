@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 120vh;
+    background-image: url("media/images/BACKmain.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    animation: move 20s infinite both;
+    background-color: pink;
+  }
+
+/* h1 {
+    color:red;
+    opacity:0.2;
+    font-size:60pt;
+    margin-top:-20px;
+    margin-bottom:0px;
+    text-align:right;
+}
+p {
+    margin:10px;
+}
+a {
+    color:rebeccapurple;
+    text-decoration: none;
+} */
+
+#cover{
+  margin-top:0px;
+  width: 820px;
+  height: 100%;
+  background-color: palevioletred;
+  background-image: url("media/images/BACKtheater.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+}
+
+
+/* .cover {
+  width: 500px;
+  height: 100%;
+  background-image: url("media/images/BACKtheater.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+.a {
+  background-image: url(repeat_test.png);     /* 背景画像指定(html にIDで入力) */
+  background-repeat: no-repeat;              /* 背景の繰り返し設定 */
+  background-position: right bottom;          /* 背景の位置指定 */
+}
+
+/* ログイン画面用のデータ */
+
+h1{
+  text-align: center;
+}
+
+div.reg{
+  background-color: #EEEEEE;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.message{
+  text-align: right;
+  margin-right:20%;
+}
+
+table.reg_form{
+  width: 100%;
+  border-spacing: 10px 30px;
+  padding-left:20px;
+}
+
+.btn{
+    color: #fff;
+    background-color: #000033;
+    font-size: 1.0em;
+    padding: 10px 30px;
+    margin-left:80%;
+}
+
+.btn:hover{
+  color: #fff;
+  background: #000099;
+}
+
+

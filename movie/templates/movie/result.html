@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" 
+    href="{% static 'movie/css/style.css' %}" />
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    crossorigin="anonymous">
+
+
+</head>
+
+<body class="container" id="cover">
+    <h1 class="display-4 text-danger mb-4">{{title}}</h1>
+    <p class="h5">{{msg}}</p>
+    <p class="h6"><a href="{% url goto %}">{{goto}}</a></p>
+    <div class="cover">これは「cover」のテストです</div>
+</body>
+
+</html>
